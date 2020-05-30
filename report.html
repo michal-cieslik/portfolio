@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Michal Cieslik portfolio">
+    <meta name="keywords" content="michal, cieslik, html, css, js, portfolio">
+    <meta name="author" content="Michal Cieslik">
+    <title>michał cieślik</title>
+    <link rel="stylesheet" href="assets/styles/report.css" type="text/css">
+    <link rel="icon" href="assets/img/logo.svg">
+    <script src="https://kit.fontawesome.com/f7e1e172c4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" href="assets/styles/hint.css">
+
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo"><img src="assets/img/logo.svg"></div>
+
+        <div id="menu">
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i></a></li>
+                <li><a href="report.html"><span class="hint--bottom hint--rounded hint--bounce"
+                            aria-label="zgłoś błąd"><i class="fas fa-bug"></i></span></a></li>
+            </ul>
+        </div>
+    </nav>
+
+        <main>
+            <div id="main-text">
+                <p id="main-info"><b>Napisz do mnie</b><br></p>
+            <div id="report-box">
+                <form class="two-columns__col">
+                    <div class="form-group">
+                    <label for="email" class="sr-only">adres email</label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="adres e-mail" required="">
+                    </div>
+                    <div class="form-group">
+                    <label for="temat" class="sr-only">temat</label>
+                    <input type="text" id="temat" name="temat" class="form-control" placeholder="temat" required="">
+                    </div>
+                    <div class="form-group">
+                    <label for="wiadomosc" class="sr-only">wiadomość</label>
+                    <textarea name="wiadomosc" id="wiadomosc" rows="10" class="form-control" minlength="10" placeholder="wiadomość" required=""></textarea>
+                    </div>
+                    <button type="submit" class="btn">
+                    <span>wyślij</span>
+                    </button>
+                    </form>
+            </div>
+        </main>
+
+
+    <footer id="footer">
+            <div id="footer-info">
+                    <a href="https://github.com/michal-cieslik" target="_blank"><i class="devicon-github-plain footer-icons"></i></a>
+                    <a href="https://www.facebook.com/cslykowsky" target="_blank"><i class="devicon-facebook-plain footer-icons"></i></a>
+                    <span><i class="fas fa-code"></i> by Michał Cieślik © 2020</span>
+            </div>
+    </footer>
+</body>
+</html>
