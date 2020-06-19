@@ -257,35 +257,6 @@ header {
     height: 363px;
   }
 
-#credits-box {
-  width: 50%;
-  visibility: hidden;
-}
-
-#credits ol {
-  display: inline-block;
-  text-align: left;
-}
-
-#credits li { 
-  padding: 5px;
-  text-align: left;
-}
-
-.nested-items { 
-  text-align: left;
-}
-
-#credits-info-text {
-  font-size: 2em !important;
-  font-weight: 700 !important;
-}
-
-#credits a {
-  text-decoration: none;
-  color: #000;
-}
-
 #contact-info-text {
     font-size: 2em !important;
     font-weight: 700 !important;
